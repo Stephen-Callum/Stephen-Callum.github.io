@@ -1,0 +1,140 @@
+/* Default style for webpage */
+body {
+   background-color: black;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 22px;
+   color: seashell;
+   opacity: 0.9;
+   text-align: center;
+   margin: 0;
+}
+
+/* Box for navigation bar */
+header {
+   width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 69px;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    align-items: center;
+}
+
+/* heading styling */
+h2, h3, h4 {
+   margin: 0;
+   padding: 10px;
+}
+
+/* Layout for navigation bar */
+.navigation {
+   display: flex;
+   position: fixed;
+}
+
+/* Logo for TeaCozy */
+header img {
+   height: 50px;
+   margin: 10px;
+}
+
+/* Align navigation items to right */
+nav {
+   text-align: right;
+   flex-grow: 1;
+}
+
+/* Navigation link styling */
+nav a {
+   color: seashell;
+   padding: 20px 10px;
+}
+
+/* Main section with hero image */
+.main {
+   background-image: url("../TeaCozy/Images/img-mission-background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 700px;
+   width: 1200px;
+   margin: 0 auto;
+}
+
+/* Mission heading */
+.mission {
+   width: 100%;
+   background-color: black;
+   position: relative;
+   top: 50%;
+}
+
+/* Featured tea section */
+.month {
+   display: inline-block;
+   width: 1000px;
+   max-height: 760px;
+   margin-top: 40px;
+   font-weight: bold;
+}
+
+/* Featured tea image formatting */
+.flex-items {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+/* Formatting for each featured item */
+.item {
+   margin: 5px;
+}
+
+/* Featured tea image formatting */
+.item img {
+   height: 200px;
+   width: 300px;
+   display: block;
+   margin: 10px;
+}
+
+.locations-heading {
+   padding-top: 40px;
+   padding-bottom: 15px;
+   font-weight: 900;
+}
+
+.location-box {
+   display: flex;
+   justify-content: space-around;
+}
+
+.loc {
+   background-color: black;
+   opacity: 1;
+   width: 300px;
+   margin: 0 40px;
+   font-weight: 100;
+}
+
+.sub-loc {
+   font-weight: 100;
+   margin: 10px;
+}
+
+.location-box h3 {
+   margin-top: 10px;
+}
+
+.locations {
+   height: 500px;
+   width: 1200px;
+   background-image: url("../TeaCozy/Images/img-locations-background.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   margin: 40px auto;
+}
+
+footer h5 {
+   text-align: left;
+   margin-left: 20px;
+}
