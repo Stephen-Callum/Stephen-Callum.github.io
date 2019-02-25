@@ -52,7 +52,7 @@ nav a {
 
 /* Main section with hero image */
 .main {
-   background-image: url("../TeaCozy/Images/img-mission-background.jpg");
+   background-image: url("../Images/img-mission-background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    height: 700px;
@@ -128,7 +128,7 @@ nav a {
 .locations {
    height: 500px;
    width: 1200px;
-   background-image: url("../TeaCozy/Images/img-locations-background.jpg");
+   background-image: url("../Images/img-locations-background.jpg");
    background-repeat: no-repeat;
    background-size: cover;
    margin: 40px auto;
